@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-family: 'Outfit', sans-serif;
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+
+.counterBox{
+    background: rgba(255, 255, 255, 0.07);
+    padding: 70px 0px;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 20px;
+    width: 270px;
+    box-shadow: 0 0 30px rgba(0, 153, 255, 0.3);
+    transition: .5s;
+}
+.counterBox:hover{
+    transform: translateY(-8px) scale(1.01);
+    box-shadow: 0 0 30px rgba(0, 153, 255, 0.4);
+}
+.heading{
+    font-size: 50px;
+    font-weight: 700;
+    color: #00ccff;
+}
+.counterLabel{
+    font-size: 20px;
+    color: #d1d1d1;
+    padding-top: 20px;
+}
