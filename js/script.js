@@ -16,5 +16,5 @@ arr.map((item) => {
 
   let stop = setInterval(() => {
     counterJs();
-  }, 100);
+  }, 120);
 });
